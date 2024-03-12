@@ -31,13 +31,13 @@ centered_title = """
 
 st.markdown(centered_title, unsafe_allow_html=True)
     # Load other models
-model_path1 = r"E:\RBL-Water Project\trans\final\ph.pkl"
-model_path2 = r"E:\RBL-Water Project\trans\final\ag.pkl"
-model_path3 = r"E:\RBL-Water Project\trans\final\adm.pkl"
-model_path4 = r"E:\RBL-Water Project\trans\final\a.pkl"
-model_path5 = r"E:\RBL-Water Project\trans\final\bbdm.pkl"
-model_path6 = r"E:\RBL-Water Project\trans\final\bbch.pkl"
-model_path7 = r"E:\RBL-Water Project\trans\final\bb.pkl"
+model_path1 = r"ph.pkl"
+model_path2 = r"ag.pkl"
+model_path3 = r"adm.pkl"
+model_path4 = r"a.pkl"
+model_path5 = r"bbdm.pkl"
+model_path6 = r"bbch.pkl"
+model_path7 = r"bb.pkl"
 
 model1 = joblib.load(model_path1)
 model2 = joblib.load(model_path2)
